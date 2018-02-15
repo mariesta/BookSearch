@@ -1,0 +1,20 @@
+.list-group-item:hover {
+	background-color: #F5F5F5
+}
+
+.bookDetail p {
+	font-weight: 300;
+}
+
+.bookDetail .detailLabel {
+	font-weight: bold;
+}
+
+.list-group-item.activeBook,
+.list-group-item.activeBook:focus,
+.list-group-item.activeBook:hover {
+	background-color: #A9A9A9;
+	border-color: #989898;
+	color: #FFF;
+	z-index: 2;
+}
